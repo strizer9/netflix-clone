@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { baseUrl } from '../constants/movie'
 import { Movie } from '../typings'
 import { InformationCircleIcon } from '@heroicons/react/outline'
-
+import { FaPlay } from 'react-icons/fa'
 interface Props {
   netflixOriginals: Movie[]
 }
